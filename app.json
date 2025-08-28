@@ -1,0 +1,40 @@
+{
+    "name": "Mikthon",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://graph.org/file/2f494f3c2cf45f2af1750.jpg",
+    "repository": "https://github.com/Mikthon/Mikthon0",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/Mikthon/Mikthon0",
+    "env": {
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": "21081318",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": "51312b0c5cb2f9414a015534d7b529a3",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": " توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
